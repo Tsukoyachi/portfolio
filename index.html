@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axel Delille's portfolio</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <section class="profile">
+        <h1>Axel Delille, budding full-stack developer (Front-end and Back-end)
+            I develop all types of web applications</h1>
+        <img src="assets/profile_picture2.jpg" alt="photo of myself">
+    </section>
+    <div class="intro">
+        <h3>Hello, my name is Axel Delille, welcome to my portfolio !</h3>
+            <p>I'm currently at Polytech Nice Sophia in first year of computer science and I'm an apprentice for Air
+                France
+                KLM.
+                <br> My current goal is to become a full stack developper.
+                <br> Since I was little, I've been fascinated by computers, game and technology in general, and I've
+                always
+                wanted to learn more about it.
+                <br> Something I began to acheieve a few years ago when I started to discover my
+                first programming language.
+                <br> And recently I've been discovering few domains of programmation like web development.
+            </p>
+            <h3 class="rethoric-question">You want to learn more ? Keep reading !</h3>
+    </div>
+    <div class="skills">
+        <h2>My skills :</h2>
+            <div>
+                <div class="front">
+                    <h3>Front-end skills :</h3>
+                    <ul class="skill-list">
+                        Tools I use often :
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Javascript</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                    <ul class="skill-list">
+                        Tools I use rarely :
+                        <li>Angular</li>
+                        <li>Typescript</li>
+                        <li>Angular Material (better than Bootstrap when it comes to Angular)</li>
+                    </ul>
+                </div>
+                <div class="back">
+                    <h3>Back-end skills :</h3>
+                    <ul class="skill-list">The language I use often :
+                        <li>Java</li>
+                        <li>PHP</li>
+                        <li>Python</li>
+                    </ul>
+                    <ul class="skill-list">
+                        The language I learn for the moment :
+                        <li>C# for Unity</li>
+                    </ul>
+                    <ul class="skill-list">
+                        The language I'll learn soon:
+                        <li>C to help during my studies</li>
+                    </ul>
+                </div>
+            </div>
+            <h3>I also do a little bit of Arduino.</h3>
+    </div>
+    <div class="tools">
+        <h2>The tools I use for the majority of my projects</h2>
+        <ul>
+            <li>Visual studio code</li>
+            <li>Github</li>
+            <li>StackOverflow</li>
+            <li>Postman</li>
+        </ul>
+    </div>
+    <div class="compilation">
+        <h2>Some of my best project for the moment !</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Rogue</h3>
+                <p>A rogue-like game, with a simple and fun gameplay made in Python with tkinter.
+                    <br> It's a game where you can move around and fight enemies in a dungeon made procedurally.
+                    <br>I implemented some animations, spells, enemies, items, etc...
+                    <br>Language : Python
+                    <br>It's also on my Github !
+                </p>
+                <img id="rogue" src="assets/rogue.png" alt="Screenshot of the game">
+            </div>
+            <div class="project">
+                <h3>Domotech</h3>
+                <p>It's an Arduino project of a Domotic house.
+                    <br>It's a project where you can control the house with a website.
+                    <br>I implemented a lot of functions, like lights, temperature, etc...
+                    <br>Language : Arduino, HTML, CSS
+                    <br>Board used in the project : ESP32
+                    <br> link to a demonstration in video : <a href="https://www.youtube.com/watch?v=h6xsl7u4DOc&list=PLZiidj2X6S_mYPlfseCMSw44s1h56aiDF&index=3">here</a>
+                    <br>It's also on my Github !
+                </p>
+                <!-- TODO: Replace this by a real photo of the house... -->
+                <img id="domotech" src="assets/test.png" alt="Photo of the house">
+            </div>
+            <div class="project">
+                <h3>ChatApp</h3>
+                <p>It's a chat application made with Angular.
+                    <br>It's a chat application where you can chat with other people.
+                    <br>I implemented a lot of functions, like login, register, etc...
+                    <br>Language : Angular, HTML, CSS, Typescript, PHP
+                    <br>The final version isn't on Github yet, it's a preview version on my friend's git.
+                    <br>PS : Angular is a little bit of an overkill for this project so I'm not 100% satisfied of the
+                    result but still good one.
+                </p>
+                <!-- TODO: Replace this by a real screenshot of the app... -->
+                <img id="chatapp" src="assets/test.png" alt="Screenshot a chatroom of the app">
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+       <div class="formContainer">
+           <form action="php/mail.php" method="post">
+               <h3>If you want to contact me it's here !</h3>
+               <input type="text" name="name" placeholder="Your name">
+               <input type="text" name="email" placeholder="Your email">
+               <input type="text" name="subject" placeholder="Subject">
+               <textarea name="message" cols="30" rows="10" placeholder="Your message"></textarea>
+               <input type="submit" value="Send">
+            </form>
+        </div>  
+    </div>
+    <!-- TODO: Add the social section -->
+</body>
+
+</html>

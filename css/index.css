@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile>h1 {
+    padding: 1rem 0rem;
+}
+
+.profile>img {
+    width: 10%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    width: 100%;
+}
+
+.intro>* {
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.intro>h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.skills {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.skills>div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 1rem;
+    justify-content: space-evenly;
+}
+
+.skills>div>.front {
+    width: 48%;
+    padding: 1rem 0;
+    border: 1px solid #000;
+}
+
+.skill-list {
+    margin-top: 1rem;
+    list-style: none
+}
+
+.skills>div>.back {
+    width: 48%;
+    padding: 1rem 0;
+    border: 1px solid #000;
+}
+
+.tools {
+    margin-top: 1rem;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.tools>* {
+    margin: 1rem 0;
+}
+
+.compilation {
+    margin-top: 1rem;
+}
+
+.projects {
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.project {
+    width: 33%;
+}
+
+.project>p {
+    width: 84%;
+    margin: auto;
+}
+
+.project>img {
+    width: 85%;
+    margin-bottom: 2rem;
+}
+
+.project>img:hover {
+    cursor: pointer;
+}
+
+.contact {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.formContainer>form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form {
+    padding-top: 1rem;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+form>* {
+    margin: 0.5rem;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 50rem;
+    height: 2rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+textarea {
+    width: 50rem;
+    height: 10rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+}
